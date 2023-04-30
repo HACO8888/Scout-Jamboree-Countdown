@@ -25,7 +25,7 @@ const Timer = () => {
   }, []);
 
   return (
-      <span className="text-5xl font-bold">
+      <span className="text-5xl font-bold max-sm:text-3xl max-md:text-4xl max-[358px]:text-[25px] max-[312px]:text-[20px]">
         {days < 10 ? "0" + days : days}天 {hours < 10 ? "0" + hours : hours}時 {minutes < 10 ? "0" + minutes : minutes}分 {seconds < 10 ? "0" + seconds : seconds}秒
       </span>
   );
