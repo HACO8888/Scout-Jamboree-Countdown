@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>2023世界大露營倒數</title>
       </Head>
-      <main className="flex flex-col items-center p-10 text-center select-none min-h-[100vh] ">
+      <main className="flex flex-col items-center p-5 text-center select-none min-h-[100vh] ">
         <Image
           src="/Official_Logo_for_2023WSJ.png"
           width={579}
